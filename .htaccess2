@@ -1,0 +1,12 @@
+# Switch rewrite engine off in case this was installed under HostPay.
+RewriteEngine Off
+
+# SetEnv DEFAULT_PHP_VERSION 53
+
+DirectoryIndex index.html
+
+# BEGIN WordPress
+
+# END WordPress
+
+Options -Indexes
